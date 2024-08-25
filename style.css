@@ -1,0 +1,135 @@
+*{    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#calc{
+    position: relative;
+    top: 10px;
+    height: 530px;
+    width: 320px; 
+    border: 5px solid #323233;
+    border-radius: 10px;
+    background: #202020;
+}
+#but{
+    width: 77px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #323233;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+#butstyle{
+    width: 77px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #323233;
+    font-size: 14px;
+    font-weight: 500;
+}
+#butblue{
+    width: 77px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    background: #40BDFF;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+#calcontent{
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    gap: 2px;
+    left: 2px;
+    justify-content: center;
+  
+
+}
+.nn{
+font-size: 12px;
+
+} 
+
+#comandtop{
+position: absolute;
+top: 193px;
+left: 6px;
+display: flex;
+justify-content: center;
+gap: 2px;
+}
+#butt{
+border: none;
+height: 30px;
+color: white;
+background-color: transparent;
+width: 50px;
+font-size: 12px;
+border-radius: 5px;
+
+}
+#butt:hover{
+background-color: rgba(165, 165, 165, 0.146);
+}
+
+#butts{
+border: none;
+height: 30px;
+color: white;
+background: transparent;
+width: 50px;
+font-size: 12px;
+border-radius: 5px;
+}
+#butts:hover{
+background-color: rgba(165, 165, 165, 0.146);
+}
+#displayans{
+position: absolute;
+top: 60px;
+color: white;
+background: #202020;
+width: 305px;
+height: 50px;
+display: flex;
+left: 10px;
+justify-content: right;
+align-items: center;
+font-size: 24px;
+text-align: end;
+border: none;
+}
+#displayanswer{
+position: absolute;
+top: 120px;
+color: white;
+background: #202020;
+width: 305px;
+height: 50px;
+display: flex;
+left: 10px;
+justify-content: right;
+align-items: center;
+font-size: 40px;
+text-align: end;
+border: none;
+
+}

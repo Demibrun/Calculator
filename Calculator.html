@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Caculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div id="calc">
+
+    <input id="displayans"></input>
+    <input id="displayanswer"></input>
+    <div id="comandtop">
+        <button id="butt" onclick="operate('mc')">MC</button>
+        <button id="butt" onclick="operate('mr')">MR</button>
+        <button id="butt" onclick="operate('m+')">M+</button>   
+        <button id="butt" onclick="operate('m-')">M-</button>   
+        <button id="butt" onclick="operate('ms')">MS</button>
+        <button id="butts" onclick="operate('m')">M</button>
+    </div>
+    <div id="calcontent">
+    <button id="but" onclick="operate('%')">%</button>
+    <button id="but" onclick="del()">CE</button>
+    <button id="but" onclick="del()">C</button>   
+    <button id="but" onclick="del1('clear')">Del</button>   
+    <button id="butstyle" onclick="operate('1/ꭓ')">1/ꭓ</button>
+    <button id="butstyle"onclick="operate('ꭓ2')">ꭓ <sup>2</sup></button>
+    <button id="butstyle" onclick="operate('2√ꭓ')"> <sup>2</sup> √ꭓ </button>
+    <button id="but" onclick="operate('/')">/</button>   
+
+    <button id="but" onclick="displayNum(7)">7</button>
+    <button id="but" onclick="displayNum(8)">8</button>
+    <button id="but" onclick="displayNum(9)">9</button>   
+    <button id="but" onclick="operate('*')">x</button>   
+    <button id="but" onclick="displayNum(4)">4</button>
+    <button id="but" onclick="displayNum(5)">5</button>
+    <button id="but" onclick="displayNum(6)">6</button>
+    <button id="but" onclick="operate('-')">-</button>
+    <button id="but" onclick="displayNum(1)">1</button>
+    <button id="but" onclick="displayNum(2)">2</button>
+    <button id="but" onclick="displayNum(3)">3</button>
+    <button id="but" onclick="operate('+')">+</button>
+    <button id="but" onclick="operate('+/-')">+/-</button>   
+    <button id="but" onclick="displayNum('0')">0</button>
+    <button id="but" onclick="displayNum('.')">.</button>
+    <button id="butblue" onclick="calculate()">=</button>
+</div>
+</div> 
+    
+ <script src="script.js"></script>
+</body>
+</html>
